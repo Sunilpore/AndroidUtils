@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vedcomputech.pvretrotest.MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/get_details"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:text="GET"/>
+
+        <Button
+            android:id="@+id/post_details"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:text="ADD"/>
+
+        <Button
+            android:id="@+id/put_details"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:text="UPLOAD"/>
+
+        <Button
+            android:id="@+id/delete_details"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:text="DELETE"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+</LinearLayout>
