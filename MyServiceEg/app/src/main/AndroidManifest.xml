@@ -2,8 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.myserviceeg">
 
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:name=".App"
@@ -15,10 +16,11 @@
         android:theme="@style/AppTheme">
 
 
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".NotificationActivity">
         </activity>
 
-        <activity android:name=".NotificationActivity" >
+        <activity android:name=".intentservice.IntentServiceActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,10 +28,12 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".JobShedulerServiceTest"
+        <service
+            android:name=".JobShedulerServiceTest"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <service android:name=".ExampleService" />
+        <service android:name=".intentservice.ExampleIntentService" />
 
     </application>
 
