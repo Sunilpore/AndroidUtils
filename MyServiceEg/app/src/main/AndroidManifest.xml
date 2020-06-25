@@ -15,25 +15,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".NotificationActivity">
+        <activity android:name=".intentservice.IntentServiceActivity">
         </activity>
 
-        <activity android:name=".intentservice.IntentServiceActivity">
+        <activity android:name=".job_intent_service.JobIntentServiceActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".NotificationActivity"></activity>
 
         <service
             android:name=".JobShedulerServiceTest"
             android:permission="android.permission.BIND_JOB_SERVICE" />
-
         <service android:name=".ExampleService" />
         <service android:name=".intentservice.ExampleIntentService" />
+
+        <service android:name=".job_intent_service.ExampleJobIntentService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
 
     </application>
 
