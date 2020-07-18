@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">MyServiceEg</string>
-
-    <string name="channel_name">GeoChannelID</string>
-    <string name="channel_description">GeoNotification</string>
-
-</resources>

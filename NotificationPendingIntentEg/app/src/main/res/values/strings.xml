@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NotificationEg</string>
+
+    <string name="channel_name">EgChannelID</string>
+    <string name="channel_description">EgNotification</string>
+
+</resources>
