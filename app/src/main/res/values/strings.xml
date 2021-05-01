@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <string name="file_provider_name" translatable="false">.fileProvider</string>
+    <string name="permission_not_granted">Permissions not grated</string>
+    <string name="select_capture_image">Please select or capture image</string>
+    <string name="some_err">Some error occured, please try again later.</string>
+
+    <string name="permission_access_required">Permission access required for proceeding ahead.</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="string_ok">OK</string>
+    <string name="camera_unavailable">Camera app is unavailable.</string>
+
+</resources>
