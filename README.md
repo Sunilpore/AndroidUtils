@@ -3,7 +3,7 @@
 
 #//-->Scope Storage Permission
 ---------------------------------***---------------------------------
-							_Blogs/Articles
+			_Blogs/Articles_
 
 ->Scope storage
 https://stackoverflow.com/a/63365334
@@ -16,7 +16,8 @@ https://link.medium.com/wDpCuuiJNfb
 https://link.medium.com/NaxgrtxJNfb
 
 ---------------------------------***---------------------------------
-						_Scope Stroage videos
+		    _Scope Stroage videos_
+
 ->What is scope storage basic Idea?
 https://www.youtube.com/watch?v=TkOzcyzH1hU
 
@@ -30,7 +31,7 @@ https://www.youtube.com/watch?v=UnJ3amzJM94&t=1672s
 https://www.youtube.com/watch?v=RjyYCUW-9tY&t=1s
 
 ---------------------------------***---------------------------------
-							_New Policy for Android_11
+		_New Policy for Android_11_
 							
 Google new Privacy changes for Android_11
 https://www.youtube.com/watch?v=vaD-DPI6sgU
