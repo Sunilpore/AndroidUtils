@@ -24,6 +24,7 @@ import com.example.sampleapp.utils.FileSupportUtils
 import com.example.sampleapp.utils.PermissionUtils
 import com.example.sampleapp.utils.compressImageFile
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_sample.*
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -38,7 +39,7 @@ private const val REQUEST_CODE_CAPTURE_IMAGE = 200
 val CUSTOM_IMAGE = "CUSTOM_IMAGE"
 val DEPOSIT_EXT = ".jpg"
 
-class MainActivity : AppCompatActivity(R.layout.activity_main) {
+class SampleActivity : AppCompatActivity(R.layout.activity_sample) {
     private var queryImageUrl: String = ""
     private val tag = javaClass.simpleName
     private var imgPath: String = ""
@@ -285,7 +286,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
             if (queryImageUrl.isNotEmpty()) {
 
-                Glide.with(this@MainActivity)
+                Glide.with(this@SampleActivity)
                     .asBitmap()
                     .diskCacheStrategy(DiskCacheStrategy.NONE)
                     .skipMemoryCache(true)

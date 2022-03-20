@@ -29,6 +29,9 @@ https://www.youtube.com/watch?v=UnJ3amzJM94&t=1672s
 - Short Desciption
 https://www.youtube.com/watch?v=RjyYCUW-9tY&t=1s
 
+- Scope storage by Philipp Lackner
+https://github.com/philipplackner/AndroidStorage/
+
 ---------------------------------***---------------------------------
 							_New Policy for Android_11
 							
